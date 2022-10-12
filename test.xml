@@ -1,6 +1,3 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE foo [<!ENTITY toreplace "3"> ]>
-<stockCheck>
-    <productId>&toreplace;</productId>
-    <storeId>1</storeId>
-</stockCheck>
+<!--?xml version="1.0" ?-->
+<!DOCTYPE foo [<!ENTITY example SYSTEM "/etc/passwd"> ]>
+<data>&example;</data>
